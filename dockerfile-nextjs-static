@@ -1,4 +1,4 @@
-## Multistage Docker Build for Static Webpage Front-end (No Broswer Storage Functionality)
+## Multistage Docker Build for Static Webpage Front-end
 
 # Stage 1: Build the application
 FROM node:18-alpine AS builder

@@ -1,0 +1,4 @@
+FROM mcr.microsoft.com/dotnet/runtime:8.0
+WORKDIR /app/Deployer
+COPY net8.0 /app/Deployer
+ENTRYPOINT ["dotnet","Deployer.dll"]
